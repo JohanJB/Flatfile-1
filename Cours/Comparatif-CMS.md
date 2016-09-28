@@ -28,8 +28,8 @@ Un système de gestion de contenu est une famille de logiciels destinés à la c
     * SilverStripe
     
 ## Tableau comparatif ##
-CMS blogs | CMS wikis | CMS forums | CMS portails
------------- | ------------- | ------------- | ------------- 
-Wordpress (le plus t-utilisé, génère automatiquement les pages HTML)| MediaWiki | fluxBB | Joomla
-Dotclear (Gestionnaire de blog français) | PmWiki | phpBB | Drupal
+CMS blogs | CMS wikis | CMS forums | CMS portails | CMS propriétaire
+------------ | ------------- | ------------- | ------------- |
+Wordpress | MediaWiki | fluxBB | Joomla | Sharepoint
+Dotclear | PmWiki | phpBB | Drupal | -
 
