@@ -27,6 +27,11 @@ Un système de gestion de contenu est une famille de logiciels destinés à la c
     * Xoops
     * SilverStripe
     
+* Framework php
+    * Symphony
+
+Tous open source sauf cms propriétaire
+    
 ## Tableau comparatif ##
 CMS blogs | CMS wikis | CMS forums | CMS portails | CMS propriétaire
 ------------ | ------------- | ------------- | ------------- | -------------
