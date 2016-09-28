@@ -9,7 +9,27 @@ Un système de gestion de contenu est une famille de logiciels destinés à la c
 * Permet de hiérarchiser les utilisateurs et de leur attribuer des rôles et des permissions.
 
 ## Listes des CMS ##
-* Wordpress
-* Joomla
-* Drupal
-* Prestashop
+* Les blogs
+    * Wordpress
+    * Dotclear
+* Les wikis
+    * MediaWiki
+    * PmWiki
+    * DokuWiki
+* Les forums
+    * fluxBB
+    * phpBB
+    * MyBB
+    *vBulletin
+* Les portails
+    * Joomla
+    * Drupal
+    * Xoops
+    * SilverStripe
+    
+## Tableau comparatif ##
+Les blogs | Les wikis
+------------ | -------------
+Wordpress (le plus t-utilisé, génère automatiquement les pages HTML) | MediaWiki
+Dotclear (Gestionnaire de blog français) | PmWiki
+
