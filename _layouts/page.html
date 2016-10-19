@@ -1,0 +1,19 @@
+---
+---
+<!DOCTYPE html>
+<html>
+   {% include head.html %}
+    <body>
+        <header>
+            <h1>{{page.title}}</h1>
+    <nav>
+         <a href="/">Accueil</a>
+         <a href="about.html">A propos</a>
+         <a href="equipe.html">Equipe</a>
+     </nav>
+     
+        </header>
+            {{ content }}
+        {% include footer.html %}
+    </body>
+</html>    
