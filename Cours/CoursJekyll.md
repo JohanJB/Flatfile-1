@@ -25,3 +25,6 @@ Tous les fichiers / dossiers avec un préfixe "_" ne sont pas générés dans le
 * Dans ce fichier, copié l'intégralité du code et à la place du contenu mettre {{ content}}
 * Dans le fichier index.html mettre le code suivant:
 (---layout: default--- + le contenu)
+
+## Créer un menu ##
+* lien vesrs fichier.md mettre .html
