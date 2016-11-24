@@ -1,9 +1,11 @@
 <header>
-            <h1>Documentation dépôt</h1>
+            <h1>{{page.title}}</h1>
      <nav>
-         <a href="/">Accueil</a>
-         <a href="about.html">A propos</a>
-         <a href="equipe.html">Equipe</a>
+         <ul>
+            {% for page in site.pages %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %} 
+        </ul>
      </nav>
      
 </header>
