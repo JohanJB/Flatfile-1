@@ -1,1 +1,5 @@
 title: Documentation Flatfile
+collections:
+cours:
+    output: true
+    permalink: /_cours/:path/
