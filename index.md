@@ -5,14 +5,12 @@ title: Accueil
 <main>
     <p>Hello</p><br/>
     
-    {% for cour in site.cours %}
-    <li>{{ cour.title }}</li>
+    {% for cours in site.cours %}
+    <li>{{ cours.title }}</li>
     {% endfor %}
     
-    <br/><br/>
-    
-    {% for partner in site.data.partners %}
-        {{ partner.nom }}
+    {% for equipe in site.data.partners %}
+    <li>{{ equipe.nom }} / {{ equipe.github }}</li>
     {% endfor %}
     
 </main>
