@@ -1,3 +1,6 @@
+---
+title: Jekyll
+---
 # Installer Jekyll en local #
 (Jekyll : Générateur de site codé en Ruby)
 * Installer Ruby (sudo apt install ruby)
@@ -48,3 +51,11 @@ Puis ajouter boucle de lecture sur la page:
     <a href="{{ post.url }}">{{ post.title }}</a>
     <p>{{ post.excerpt }}</p>
     {% endfor %}
+
+## Répertoire _assets ##
+On l'utilise pour ranger:
+    * css
+    * img
+    * favicon
+    * fonts
+    * scripts
