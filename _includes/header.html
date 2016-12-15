@@ -4,7 +4,11 @@
      <nav>
          <ul>
             {% for page in site.pages %}
+<<<<<<< HEAD
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+=======
+            <li><a href="{{ site.url }}/{{ page.url }}">{{ page.title }}</a></li>
+>>>>>>> 5be59242a94db22d3159e0e90c156f4eff5dc6d3
             {% endfor %} 
         </ul>
      </nav>
