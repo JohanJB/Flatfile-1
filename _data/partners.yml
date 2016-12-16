@@ -1,4 +1,12 @@
----
-title: partners
----
-nom: Maxime
+partner:
+    nom: Maxime Lemolt
+    age: 20 ans
+    github: MaximeLemolt
+
+    nom: Nahim Bouhana
+    age: 20 ans
+    github: NahimBh
+
+    nom: Chloe Thiebaut
+    age: 22 ans
+    github: ChloeThiebaut

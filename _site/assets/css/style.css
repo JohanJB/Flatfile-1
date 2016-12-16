@@ -1,0 +1,33 @@
+body {
+    font-family: helvetica;
+    color: black;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 45rem;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    background: url('../img/background2.jpg');
+        background-size: cover;
+    color: #fff;
+}
+
+header h1, header nav, header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header a {
+    color: #fff;
+}
+
+/* MAIN */
+
+/* FOOTER */
