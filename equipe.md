@@ -2,4 +2,9 @@
 layout: page
 title: Equipe
 ---
-Test
+
+{% for ligue in site.data.clubs %}
+    {% for club in ligue[1] %}
+        {{ club.name }}
+    {% endfor %}
+{% endfor %}
