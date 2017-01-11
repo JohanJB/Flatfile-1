@@ -10,8 +10,8 @@ layout: default
     <li>{{ cour.title }}</li>
     {% endfor %}
     
-    {% for partner in site.data.partners %}
-    <li>{{ partner.nom }} / {{ partner.github }}</li>
+    {% for product in site.products %}
+    {% include product.html %}
     {% endfor %}
     
 </main>
