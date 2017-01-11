@@ -1,13 +1,12 @@
 <div class="product">
   <a class="product" href="{{ product.url }}">
-    <img width="100%" src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+    <img width="100%" src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/></a>
     <p>{{ product.name }}</p>
     <p>
       Description: {{ product.description }}
     <br/>
       Dimensions {{ product.dimensions }}
     </p>
-  </a>
 
   <button class="snipcart-add-item"
     data-item-name="{{ product.name }}"
