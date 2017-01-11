@@ -7,6 +7,6 @@ description: 'The building design is base on The White House. It can be folded f
   and made with paper entirely. '
 dimensions: " 16.48 inches or 41.8 cm in length / 8.58 inches or 21.8 cm in width
   / 8.04 inches or 20.4 cm in height"
-price: 79,99€
+price: '79,99'
 ---
 
