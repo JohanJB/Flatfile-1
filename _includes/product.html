@@ -1,12 +1,12 @@
 <div class="product">
   <a class="product" href="{{ product.url }}">
+    <img width="100%" src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+    <p>{{ product.name }}</p>
     <p>
       Description: {{ product.description }}
     <br/>
       Dimensions {{ product.dimensions }}
-    <p>
-    <img width="100%" src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
-    <p>{{ product.name }}</p>
+    </p>
   </a>
 
   <button class="snipcart-add-item"
