@@ -1,6 +1,7 @@
 <div class="product" style="display:flex;flex-direction:row;">
   <a class="product" href="{{ product.url }}">
     <img width="30%" src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/></a>
+  <div class="product-info" style="display:flex;flex-direction:column;">
     <p>{{ product.name }}</p>
     <p>
       Description: {{ product.description }}
@@ -16,6 +17,7 @@
     data-item-price="{{ product.price }}">
     Acheter le pour {{ product.price }} $
   </button>
+  </div>   
 </div>
 
 
