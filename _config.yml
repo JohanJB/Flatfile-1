@@ -2,6 +2,7 @@
 title: Origami
 timezone: UTC
 collections:
+- products
   posts:
     title: Posts
     output: true
