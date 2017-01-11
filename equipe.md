@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Equipe
+layout: page
 ---
 
 {% for ligue in site.data.clubs %}
